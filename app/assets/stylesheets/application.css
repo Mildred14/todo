@@ -13,3 +13,15 @@
  *= require_tree .
  *= require_self
  */
+ @font-face {
+    font-family: "Poppin";
+    src: url(/assets/fonts/Poppins-Regular.ttf) format("truetype");
+  }
+  body{
+      font-family: "Poppins"
+  }
+
+ .navbar-link{
+     font-family: "Poppins";
+     color: #0a8ce2;
+ }
